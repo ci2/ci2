@@ -1,1 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240" role="img" aria-label="Fernando Sorto Fagundes - Finance, Technology and AI">
+<defs>
+<linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient>
+<linearGradient id="g2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#58a6ff"/><stop offset="1" stop-color="#3fb950"/></linearGradient>
+<linearGradient id="g3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#58a6ff" stop-opacity=".28"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></linearGradient>
+<clipPath id="rc"><rect width="800" height="240" rx="16"/></clipPath>
+</defs>
+<style>
+.bn{font:700 40px 'Segoe UI',Roboto,Helvetica,Arial,sans-serif;fill:#e6edf3;animation:kU 1s ease-out both}
+.bs{font:400 26px 'Segoe UI',Roboto,Helvetica,Arial,sans-serif;fill:#8b949e;animation:kU 1s .3s ease-out both}
+.bt{font:600 14px 'Segoe UI',Roboto,Helvetica,Arial,sans-serif;letter-spacing:3px;fill:#58a6ff;animation:kU 1s .6s ease-out both}
+.bl{stroke-dasharray:1000;stroke-dashoffset:1000;animation:kD 3s .4s ease-out forwards}
+.ba{opacity:0;animation:kF 1.5s 2.4s ease-out forwards}
+.bp{opacity:0;animation:kF .5s 3.2s forwards}
+.br{opacity:0;animation:kB 2s 3.2s ease-in-out infinite}
+@keyframes kU{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes kD{to{stroke-dashoffset:0}}
+@keyframes kF{to{opacity:1}}
+@keyframes kB{0%,100%{opacity:0}50%{opacity:.35}}
+</style>
+<g clip-path="url(#rc)">
+<rect width="800" height="240" fill="url(#g1)"/>
+<path d="M0 60H800M0 110H800M0 160H800M0 210H800" stroke="#30363d" stroke-opacity=".6" stroke-dasharray="2 6" fill="none"/>
+<path class="ba" fill="url(#g3)" d="M0 228L60 222L110 226L170 212L230 216L290 196L350 202L410 178L470 184L530 158L590 166L650 130L710 140L770 84V240H0Z"/>
+<path class="bl" pathLength="1000" fill="none" stroke="url(#g2)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M0 228L60 222L110 226L170 212L230 216L290 196L350 202L410 178L470 184L530 158L590 166L650 130L710 140L770 84"/>
+<circle class="br" cx="770" cy="84" r="14" fill="#3fb950"/>
+<circle class="bp" cx="770" cy="84" r="6" fill="#3fb950"/>
+<text class="bn" x="40" y="84">Fernando Sorto Fagundes</text>
+<text class="bs" x="40" y="126">Finance × Technology × AI</text>
+<text class="bt" x="40" y="162">BUILD · LEARN · ANALYZE · REPEAT</text>
+</g>
+</svg>
 
